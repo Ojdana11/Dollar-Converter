@@ -10,7 +10,7 @@ namespace DollarConverterClient
 {
 	public partial class MainWindow : Window
 	{
-		private IDollarConverterServiceFactory dollarConverterServiceFactory;
+		private IDollarConverterService dollarConverterService;
 
 		public MainWindow()
 		{
@@ -18,14 +18,13 @@ namespace DollarConverterClient
 		}
 		public MainWindow(IDollarConverterServiceFactory dollarConverterServiceFactor) : this()
 		{
-			this.dollarConverterServiceFactory = dollarConverterServiceFactor;
+			this.dollarConverterService = dollarConverterServiceFactor.Create();
 		}
 
 		private void inputTextBox_TextChanged(object sender, TextChangedEventArgs e)
 		{
-			var proxy = this.dollarConverterServiceFactory.Create();
 			TextBox textBox = sender as TextBox;
-			textResult.Text = proxy.GetDollarsInWords(inputTextBox.Text);
+			textResult.Text = dollarConverterService.GetDollarsInWords(inputTextBox.Text);
 		}
 
 		private void inputTextBox_PreviewTextInput(object sender, System.Windows.Input.TextCompositionEventArgs e)

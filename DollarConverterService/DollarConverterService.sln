@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarClient", "DollarConverterClient\DollarClient.csproj", "{934A338B-7C50-4E74-BCA6-BF7BBEEB0E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarService", "DollarConverter\DollarService.csproj", "{23592226-42B7-41F1-8904-D702D8469BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarInterfaces", "DollarInterfaces\DollarInterfaces.csproj", "{CB230BEC-7D17-42AA-BEDF-514C9626212F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarServiceTest", "DollarServiceTest\DollarServiceTest.csproj", "{20D7D78A-1900-4999-9238-1B4273173907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{934A338B-7C50-4E74-BCA6-BF7BBEEB0E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934A338B-7C50-4E74-BCA6-BF7BBEEB0E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934A338B-7C50-4E74-BCA6-BF7BBEEB0E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934A338B-7C50-4E74-BCA6-BF7BBEEB0E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23592226-42B7-41F1-8904-D702D8469BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23592226-42B7-41F1-8904-D702D8469BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23592226-42B7-41F1-8904-D702D8469BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23592226-42B7-41F1-8904-D702D8469BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB230BEC-7D17-42AA-BEDF-514C9626212F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB230BEC-7D17-42AA-BEDF-514C9626212F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB230BEC-7D17-42AA-BEDF-514C9626212F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB230BEC-7D17-42AA-BEDF-514C9626212F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D7D78A-1900-4999-9238-1B4273173907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D7D78A-1900-4999-9238-1B4273173907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D7D78A-1900-4999-9238-1B4273173907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D7D78A-1900-4999-9238-1B4273173907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F01B1C0A-7813-448D-A99F-3E9D9A240C97}
+	EndGlobalSection
+EndGlobal

@@ -1,5 +1,5 @@
 # Dollar-Converter
-WCF+WPF self host / application to convert numeric value to in words 
+WCF+WPF self host / application to convert numeric value into words. 
 
 Application should be run in admin mode
 
